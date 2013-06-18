@@ -62,7 +62,8 @@
             <footer>
                 <div class="row">
                     <div class="span8">
-                        <p>Server owned and operated by <a href="http://www.theverge.com/">The Verge</a></p>
+                        <p>Server owned and operated by <a href="http://www.theverge.com/">The Verge</a>.</p>
+                        <p>&copy; {{ date('Y'); }} Vergecraft. All rights reserved.</p>
                         <p><i class="icon-heart icon-white"></i>&nbsp;<a href="http://tom.vergecraft.com">Aquaman_Tom</a></p>
                     </div>
                     <div class="span4 text-right social">
