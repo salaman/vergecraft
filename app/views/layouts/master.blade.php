@@ -4,8 +4,8 @@
     <title>Vergecraft</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?2.3.2">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css?2.3.2">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css?0.8.9">
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <script>
@@ -76,7 +76,7 @@
 
     <!-- Javascript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js?2.3.2"></script>
     <script src="js/jquery.magnific-popup.min.js?0.8.9"></script>
     <script type="text/javascript">
     $(document).ready(function() {
