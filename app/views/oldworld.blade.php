@@ -1,3 +1,7 @@
+@section('title')
+    <title>Old World - Vergecraft</title>
+@stop
+
 @section('header')
 <header class="jumbotron subhead" id="overview">
     <div class="container">

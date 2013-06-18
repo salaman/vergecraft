@@ -1,4 +1,3 @@
-
 @section('content')
 <div class="content content-large">
     <div class="container">

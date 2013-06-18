@@ -1,3 +1,7 @@
+@section('title')
+    <title>Staff - Vergecraft</title>
+@stop
+
 @section('header')
 <header class="jumbotron subhead" id="overview">
     <div class="container">

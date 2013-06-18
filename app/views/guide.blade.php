@@ -1,8 +1,11 @@
+@section('title')
+    <title>Player's Guide - Vergecraft</title>
+@stop
+
 @section('header')
 <header class="jumbotron subhead" id="overview">
     <div class="container">
         <h1>Player's Guide</h1>
-        <!-- <p class="lead">Download a copy of the old world for yourself</p> -->
     </div>
 </header>
 @stop
