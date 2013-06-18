@@ -63,7 +63,6 @@
                     @else
                         <p><i class="icon-remove"></i> Uh oh! The server appears to be down. Check back later!</p>
                     @endif
-                    </p>
                 </div>
             </div>
         </div>

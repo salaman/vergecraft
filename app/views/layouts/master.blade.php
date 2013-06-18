@@ -66,8 +66,8 @@
                     <p><i class="icon-heart icon-white"></i>&nbsp;<a href="http://tom.vergecraft.com">Aquaman_Tom</a></p>
                 </div>
                 <div class="span4 text-right social">
-                    <a href="https://twitter.com/VergecraftRealm" target="_blank" rel="nofollow"><img src="img/twitter-64.png" /></a>
-                    <a href="http://reddit.com/r/vergecraft" target="_blank" rel="nofollow"><img src="img/reddit-64.png" /></a>
+                    <a href="https://twitter.com/VergecraftRealm" target="_blank" rel="nofollow"><img src="img/twitter-64.png" alt="Twitter" /></a>
+                    <a href="http://reddit.com/r/vergecraft" target="_blank" rel="nofollow"><img src="img/reddit-64.png" alt="Reddit" /></a>
                 </div>
                 </div>
             </footer>
