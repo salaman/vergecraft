@@ -1,0 +1,381 @@
+body {
+    padding-top: 40px;
+    background-color: #181d21;
+    position: relative;
+}
+
+.navbar-blue .navbar-inner {
+    background-color: #181d21;
+    background-image: linear-gradient(to bottom, #1f262b, #181d21);
+}
+
+.navbar-blue .active {
+    background-color: #111517;
+}
+
+.navbar-blue .brand.active {
+    color: white;
+    background-color: #111517;
+}
+
+.jumbotron {
+    padding: 40px 0;
+    background: url(../img/header.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.subhead {
+    text-align: left;
+    color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.masthead {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 100px 0;
+    background: url(../img/jumbotron.jpg) no-repeat bottom center;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.subhead h1 {
+    font-size: 50px;
+    text-shadow: rgba(0,0,0,0.4) 0 0 4px;
+}
+
+.masthead h1 {
+    font-size: 80px;
+    text-shadow: rgba(0,0,0,0.5) 0 0 6px;
+    text-align: center;
+}
+
+.jumbotron p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+
+.subhead p {
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-shadow: rgba(0,0,0,0.4) 0 0 3px;
+}
+
+.masthead p {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: rgba(0,0,0,0.4) 0 0 3px;
+    text-align: center;
+}
+
+.footer {
+    padding: 40px 0;
+    color: #f9fafa;
+    background-color: #181d21;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.content {
+    background-color: #fdfdfd;
+    /*padding: 40px 0;*/
+    padding-bottom: 40px;
+}
+
+.content-fullpage {
+    position: absolute;
+    background-color: black;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: 2px solid #333;
+    z-index: -1;
+}
+
+.content-dark {
+    background-color: #eff1f3;
+}
+
+.content-large {
+    padding: 80px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.thumbnail {
+    border: 1px solid #bbb;
+    background-color: #efefef;
+}
+
+.row .thumbnails {
+    margin-left: 0;
+}
+
+.address {
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 12px;
+}
+
+.address-url {
+    font-weight: bold;
+    font-size: 42px;
+    color: #d14;
+}
+
+.quicklinks {
+    font-size: 16px;
+}
+
+.status {
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 0.8;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.nav-stacked {
+    margin-top: 30px;
+    padding: 0;
+    width: 210px;
+}
+
+.nav-indent a {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 24px !important;
+    font-size: 12px;
+}
+
+.nav .icon-chevron-right {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: 0.6;
+}
+
+.nav.affix {
+    top: 40px;
+}
+
+.nav.affix-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 125px;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+    border: none !important;
+    z-index: 0 !important;
+}
+
+.social a {
+    padding-left: 8px;
+}
+
+.footer a {
+    color: #3bf;
+}
+
+h3 {
+    position: relative;
+}
+
+h3 span[id] {
+    position: absolute;
+    top: -60px;
+}
+
+.player {
+    padding-bottom: 0;
+    margin-left: 20px !important;
+}
+
+.player img {
+    padding: 4px 9px 0 9px;
+}
+
+@media (min-width: 1200px) {
+    .nav-stacked {
+        width: 240px;
+        margin-top: 20px;
+    }
+
+    .players {
+        margin-left: -20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+       padding-top: 0;
+    }
+
+    .jumbotron {
+        margin-top: -20px;
+    }
+
+    .nav-stacked {
+        width: 166px;
+        margin-top: 20px;
+    }
+
+    .navbar-blue .brand.active {
+        color: white;
+        background-color: transparent;
+    }
+
+    .content-fullpage {
+        top: 50px;
+    }
+
+    h3 span[id] {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+       padding-top: 0;
+       background-color: #fdfdfd;
+    }
+
+    .footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .jumbotron {
+        margin-top: -20px;
+        margin-right: -20px;
+        margin-left:  -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-stacked {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .nav .icon-chevron-right {
+        display: none;
+    }
+
+    .nav.affix {
+        position: static;
+        width: auto;
+        top: 0;
+    }
+
+    .nav.affix-bottom {
+        position: absolute;
+        top: auto;
+        bottom: 125px;
+    }
+
+    .content-dark {
+        background-color: #eff1f3;
+        margin-right: -20px;
+        margin-left:  -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar-blue .brand.active {
+        color: white;
+        background-color: transparent;
+    }
+
+    .content {
+        padding-bottom: 30px;
+    }
+
+    .content-fullpage {
+        top: 50px;
+        padding-bottom: 0 !important;
+    }
+
+    .player {
+        margin-left: 0 !important;
+    }
+
+    section {
+        padding-top: 10px;
+    }
+
+    h3 span[id] {
+        position: absolute;
+        top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+       padding-top: 0;
+    }
+
+    .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: -20px;
+    }
+
+    .content {
+        padding-bottom: 30px;
+    }
+
+    .content-large {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .masthead h1 {
+        font-size: 50px;
+    }
+
+    .masthead p {
+        font-size: 20px;
+    }
+
+    .nav-stacked {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .address {
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    .address-url {
+        font-size: 32px;
+    }
+
+    .social {
+        text-align: center;
+        padding-top: 18px;
+    }
+}
