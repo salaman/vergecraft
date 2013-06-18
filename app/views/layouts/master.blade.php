@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css?0.8.9">
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -61,23 +61,23 @@
         <div class="container">
             <footer>
                 <div class="row">
-                <div class="span8">
-                    <p>Server owned and operated by <a href="http://www.theverge.com/">The Verge</a></p>
-                    <p><i class="icon-heart icon-white"></i>&nbsp;<a href="http://tom.vergecraft.com">Aquaman_Tom</a></p>
-                </div>
-                <div class="span4 text-right social">
-                    <a href="https://twitter.com/VergecraftRealm" target="_blank" rel="nofollow"><img src="img/twitter-64.png" alt="Twitter" /></a>
-                    <a href="http://reddit.com/r/vergecraft" target="_blank" rel="nofollow"><img src="img/reddit-64.png" alt="Reddit" /></a>
-                </div>
+                    <div class="span8">
+                        <p>Server owned and operated by <a href="http://www.theverge.com/">The Verge</a></p>
+                        <p><i class="icon-heart icon-white"></i>&nbsp;<a href="http://tom.vergecraft.com">Aquaman_Tom</a></p>
+                    </div>
+                    <div class="span4 text-right social">
+                        <a href="https://twitter.com/VergecraftRealm" target="_blank" rel="nofollow"><img src="img/twitter-64.png" alt="Twitter" /></a>
+                        <a href="http://reddit.com/r/vergecraft" target="_blank" rel="nofollow"><img src="img/reddit-64.png" alt="Reddit" /></a>
+                    </div>
                 </div>
             </footer>
         </div>
     </div>
 
     <!-- Javascript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.magnific-popup.min.js?0.8.9"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         // Initialize Magnific lightboxes
