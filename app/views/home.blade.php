@@ -4,22 +4,22 @@
         <div class="row">
             <ul class="thumbnails">
                 <li class="span3">
-                    <a href="img/2013-04-28_17.51.56.jpg" class="thumbnail">
+                    <a href="img/2013-04-28_17.51.56.jpg" class="thumbnail magnific">
                         <img src="img/2013-04-28_17.51.56-thumb.png" alt="Server Spawn">
                     </a>
                 </li>
                 <li class="span3">
-                    <a href="img/2013-04-28_17.49.29.jpg" class="thumbnail">
+                    <a href="img/2013-04-28_17.49.29.jpg" class="thumbnail magnific">
                         <img src="img/2013-04-28_17.49.29-thumb.png" alt="Castle">
                     </a>
                 </li>
                 <li class="span3">
-                    <a href="img/2013-04-28_17.54.38.jpg" class="thumbnail">
+                    <a href="img/2013-04-28_17.54.38.jpg" class="thumbnail magnific">
                         <img src="img/2013-04-28_17.54.38-thumb.png" alt="Iron Farm">
                     </a>
                 </li>
                 <li class="span3">
-                    <a href="img/2013-04-28_17.49.54.jpg" class="thumbnail">
+                    <a href="img/2013-04-28_17.49.54.jpg" class="thumbnail magnific">
                         <img src="img/2013-04-28_17.49.54-thumb.png" alt="Village">
                     </a>
                 </li>

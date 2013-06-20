@@ -84,7 +84,7 @@
     <script type="text/javascript">
     $(document).ready(function() {
         // Initialize Magnific lightboxes
-        $('.thumbnail').magnificPopup({type:'image'});
+        $('.magnific').magnificPopup({type:'image'});
     });
     </script>
 </body>
