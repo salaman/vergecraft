@@ -50,7 +50,7 @@
                 </div>
                 <div class="quicklinks">
                     <p>
-                        Not whitelisted? <a href="http://www.theverge.com/2012/9/15/3336118/vergecraft-realms-request-to-join-the-game-here">Click here to apply</a>
+                        Not whitelisted? <a href="http://www.theverge.com/2013/7/9/4508560/vergecraft-realms-whitelist-thread-redux">Click here to apply</a>
                         &nbsp;&bull;
                         Read our <a href="{{ URL::to('rules') }}">rules</a> and <a href="{{ URL::to('guide') }}">player's guide</a>
                     </p>
