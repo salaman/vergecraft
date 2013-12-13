@@ -33,14 +33,16 @@ AddDefaultCharset utf-8
 # necessary for the following directives to work.
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
-    Options -MultiViews
+	<IfModule mod_negotiation.c>
+    	Options -MultiViews
+    </IfModule>
     RewriteEngine On
 
     # Rewrite example.com -> www.example.com
     RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
     RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-    # Laravel router
+    # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]

@@ -6,3 +6,4 @@ composer.lock
 /app/config/local
 /app/config/production
 /dev
+Thumbs.db
