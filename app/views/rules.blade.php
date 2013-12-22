@@ -6,7 +6,6 @@
 <header class="jumbotron subhead" id="overview">
     <div class="container">
         <h1>Server Rules</h1>
-        <!-- <p class="lead">Download a copy of the old world for yourself</p> -->
     </div>
 </header>
 @stop
@@ -26,8 +25,7 @@
                     <li><a href="#faction-rules"><i class="icon-chevron-right"></i>Factions Rules</a></li>
                     <li class="nav-indent"><a href="#basic-faction-rules"><i class="icon-chevron-right"></i>Basic Factions Rules</a></li>
                     <li class="nav-indent"><a href="#claiming-territory"><i class="icon-chevron-right"></i>Claiming Territory</a></li>
-                    <li class="nav-indent"><a href="#peaceful-factions"><i class="icon-chevron-right"></i>Peaceful Factions</a></li>
-                    <li><a href="#style-guide"><i class="icon-chevron-right"></i>Style Guide</a></li>
+                    <li><a href="#style-guide"><i class="icon-chevron-right"></i>Server Style Guide</a></li>
                 </ul>
             </div>
             <div class="span9">
@@ -43,7 +41,7 @@
                             <b>Don't advertise.</b> Please don't advertise your website, your Minecraft server, or anything else.
                         </li>
                         <li>
-                            <b>Play fair.</b> Don't ask server admins to bend the rules: they are not allowed to spawn items or creatures, or teleport players between locations. Additionally, if you discover an exploit, please report it to server admins using the "/helpop" command. Players caught knowingly using exploits to gain an unfair advantage, or otherwise cheating, will be banned.
+                            <b>Play fair.</b> Don't ask server admins to bend the rules: they are not allowed to spawn items or creatures, or teleport players between locations. Additionally, if you discover an exploit, please report it to server admins using the <code>/helpop</code> command. Players caught knowingly using exploits to gain an unfair advantage, or otherwise cheating, will be banned.
                         </li>
                         <li>
                             <b>Don't cheat.</b> No client-side mods other than Optifine and a minimap which does not reveal player locations may be used while online. No autoclickers are allowed.
@@ -85,41 +83,34 @@
                     <ul>
                         <li>Players can't hurt fellow faction members or allies except in Warzones.</li>
                         <li>Players can't hurt neutral faction members in their own territory.</li>
-                        <li>Enemies and players without a faction are always vulnerable, except in safe-zones.</li>
                         <li>Damage dealt to faction members in their own territory is reduced.</li>
                         <li>Peaceful factions are immune to griefing and PVP (except in Warzones) by non-faction members.</li>
                         <li>Non-peaceful factions can either be neutral, allies, or enemies with other factions. Ally status requires two factions to mutually agree to be allies. Factions can declare their enemies unilaterally.</li>
-                        <li>Factions at war can destroy land in each others' territory but players attempting to do so will take damage.</li>
+                        <li>Factions at war can destroy land in each others’ territory but players attempting to do so will take damage.</li>
                     </ul>
 
                     <h3 id="claiming-territory">Claiming Territory</h3>
 
-                    <p>Factions are not required to build in connected lands and may claim territory from rivals as their power declines (more information on power and land claiming can be found in the <a href="{{ URL::to('guide') }}">player guide</a>). A map of the server which shows all claimed land as well as faction homes may be found <a href="{{ URL::to('//map.vergecraft.com') }}">here</a>.</p>
-
-                    <h3 id="peaceful-factions">Peaceful Factions</h3>
-
-                    <p>Some players may want to completely remove themselves from player-versus-player gameplay, and can join or establish peaceful factions. Peaceful factions cannot become allies or enemies of other factions, and their members cannot damage or be damaged by other players except in Warzones. Additionally, peaceful factions cannot claim territory from other factions and cannot have their own land claimed by other factions.</p>
-                    <p>Faction leaders must request to become peaceful factions from a server admin using the "/helpop" command. <b>Once made into a peaceful faction, there's no going back: factions that choose to become peaceful do so permanently as do players who join them.</b></p>
+                    <p>Factions are not required to build in connected lands and may claim territory from rivals as their power declines (more information on power and land claiming can be found in the <a href="{{ URL::to('guide') }}">Player's Guide</a>). A map of the server which shows all claimed land as well as faction homes may be found <a href="{{ URL::to('//map.vergecraft.com') }}">here</a>.</p>
                 </section>
 
                 <section id="style-guide" class="section-last">
                     <div class="page-header">
                         <h2>Server Style Guide</h2>
                     </div>
-                    <p>Vergecraft Realms does not enforce a specific texture pack or strictly define building styles, but there are some general rules:</p>
+                    <p>Vergecraft Realms does not enforce a specific texture pack or strictly define building styles. Building options remain open, however, server moderators have discretionary rights to remove the following if requested by the community at large:</p>
                     <ol>
-                        <li>
-                            <b>No floating platforms or sky cities.</b>
-                            We just haven't achieved the technology.
-                        </li>
-                        <li>
-                            <b>No single-block towers.</b>
-                            These are really unsightly.
-                        </li>
-                        <li>
-                            <b>No pixel art or symbols from the "real world."</b>
-                            Those floating Pokemon pictures were pretty cool, but they're not for this world.
-                        </li>
+                        <li><b>Floating structures.</b></li>
+                        <li><b>Structures covered in lava.</b></li>
+                        <li><b>Large structures built primarily of a single material.</b> (i.e. cobblestone, netherrack, dirt, etc.)</li>
+                        <li><b>Single block towers.</b></li>
+                    </ol>
+
+                    <p>Be considerate when choosing where to build and what to build with and give your neighbors plenty of space.</p>
+                    <p>The following rules will be <strong>strictly enforced</strong>:</p>
+                    <ol>
+                        <li><b>No pixel art.</b></li>
+                        <li><b>Floating structures in the PvP world are prohibited to ensure fair combat.</b></li>
                     </ol>
                 </section>
             </div>
