@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?2.3.2">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css?2.3.2">
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css?0.8.9">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css?0.9.9">
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -78,9 +78,9 @@
     </div>
 
     <!-- Javascript -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js?2.3.2"></script>
-    <script src="js/jquery.magnific-popup.min.js?0.8.9"></script>
+    <script src="js/jquery.magnific-popup.min.js?0.9.9"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         // Initialize Magnific lightboxes
