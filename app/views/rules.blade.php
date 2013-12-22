@@ -18,9 +18,11 @@
             <div class="span3">
                 <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="170" data-offset-bottom="155">
                     <li><a href="#basic-rules"><i class="icon-chevron-right"></i>Basic Rules</a></li>
+                    <li><a href="#pve-rules"><i class="icon-chevron-right"></i>PvE Rules</a></li>
+                    <li class="nav-indent"><a href="#pve-structures"><i class="icon-chevron-right"></i>Player-made Structures</a></li>
                     <li><a href="#pvp-rules"><i class="icon-chevron-right"></i>PvP Rules</a></li>
                     <li class="nav-indent"><a href="#killing-looting"><i class="icon-chevron-right"></i>Killing &amp; Looting</a></li>
-                    <li class="nav-indent"><a href="#player-made-structures"><i class="icon-chevron-right"></i>Player-made Structures</a></li>
+                    <li class="nav-indent"><a href="#player-made-structures"><i class="icon-chevron-right"></i>Player-made Structures and Defensive Bonuses</a></li>
                     <li><a href="#faction-rules"><i class="icon-chevron-right"></i>Factions Rules</a></li>
                     <li class="nav-indent"><a href="#basic-faction-rules"><i class="icon-chevron-right"></i>Basic Factions Rules</a></li>
                     <li class="nav-indent"><a href="#claiming-territory"><i class="icon-chevron-right"></i>Claiming Territory</a></li>
@@ -49,17 +51,28 @@
                     </ul>
                 </section>
 
+                <section id="pve-rules">
+                    <div class="page-header">
+                        <h2>PvE Rules</h2>
+                    </div>
+                    <h3 id="pve-structures">Player-made Structures</h3>
+                    <p><strong>Griefing is not allowed within Vergecraft's PvE world.</strong> The focus of this world is community building and players may protect what they build by forming peaceful factions and claiming land. Within your own territory members of non-faction players and other factions may not break/build, kill your animals or have access to unlocked chests unless you grant access using <code>/f access</code> to other players or factions.</p>
+                    <div class="alert alert-error">
+                        A structure that is not claimed is <strong>not</strong> open to griefing and players who do so <strong>will be punished</strong>. Factions in the PvE world is implemented as an assurance against griefing and <strong>not</strong> an excuse to grief unclaimed structures.
+                    </div>
+                    <p>Faction leaders may further decrease chances of griefing within their own territory by subdividing their faction claims. Faction leaders can protect the overall faction from internal griefing by assigning plots of land to specific members of the faction, and allowing specific owners to build in shared areas. Faction leaders are not required to use this system. (See the <a href="{{ URL::to('guide') }}">Player's Guide</a> for more information on the factions system.)</p>
+                </section>
+
                 <section id="pvp-rules">
                     <div class="page-header">
                         <h2>PvP Rules</h2>
                     </div>
 
                     <h3 id="killing-looting">Killing &amp; Looting</h3>
-                    <p>Player-versus-player gameplay is a feature of Vergecraft Realms. Players who are not part of a peaceful faction and who build and travel in unclaimed "Wilderness" or “Warzone” spaces are open to attack and may be killed by other players. Players who are killed may have their possessions taken.</p>
+                    <p>Player-versus-player gameplay is a feature of Vergecraft's PvP world. Once you venture outside of the Safe Zone, you may kill other players who are in factions which you are not currently allied or at peace with. Factions may go to war and conquer each other's land should the other faction's power become depleted due to death(s) of the opposing faction's member(s). Keep in mind though that you are also open to being killed and conquered by other factions, so choose your enemies wisely and build strategically. Details on player power and power loss are in the <a href="{{ URL::to('guide') }}">Player's Guide</a> section of this site.</p>
 
-                    <h3 id="player-made-structures">Player-made Structures</h3>
-                    <p>Once you venture outside of the New Verge City safe-zone, you are exploring and building <em>at your own risk</em>. In Vergecraft Realms, structures in unclaimed Wilderness are "fair game" - it is not considered griefing for players to destroy them. Players that want to protect their lives, fortunes, and homesteads must band together in factions and claim territory: players are unable to destroy structures located in territory claimed by peaceful factions and may take damage when trying to destroy structures in territory claimed by hostile factions.</p>
-                    <p>Faction leaders are responsible for policing griefing on their own by sub-dividing their faction claims. Faction leaders can protect the overall faction from internal griefing by assigning plots of land to specific members of the faction, and allowing specific owners to build in shared areas. Faction leaders are not required to use this system. (See the <a href="{{ URL::to('guide') }}">player guide</a> for more information on the factions system.)</p>
+                    <h3 id="player-made-structures">Player-made Structures and Defensive Bonuses</h3>
+                    <p>To gain some protection both for your structures and yourself, remember to form a faction and claim what you build. Opposing faction members take damage when trying to break or build in your territory. You also gain a defensive bonus and take less damage when fighting in your own territory. Anything built in the Wilderness has no protection and no defensive bonus is awarded to any players fighting in this area.</p>
                 </section>
 
                 <section id="faction-rules">
@@ -76,7 +89,7 @@
                         <li>Damage dealt to faction members in their own territory is reduced.</li>
                         <li>Peaceful factions are immune to griefing and PVP (except in Warzones) by non-faction members.</li>
                         <li>Non-peaceful factions can either be neutral, allies, or enemies with other factions. Ally status requires two factions to mutually agree to be allies. Factions can declare their enemies unilaterally.</li>
-                        <li>Factions at war can destroy land in each others’ territory but players attempting to do so will take damage.</li>
+                        <li>Factions at war can destroy land in each others' territory but players attempting to do so will take damage.</li>
                     </ul>
 
                     <h3 id="claiming-territory">Claiming Territory</h3>
