@@ -15,6 +15,9 @@
 <div class="content">
     <div class="container">
         <section>
+            <div class="alert">
+                <strong>The following page contains links to the oldest world (Vergecraft 1) and is no longer relevant.</strong> A world download of the newest map is coming very soon!
+            </div>
             <h2>World file</h2>
             <div class="row-fluid">
                 <div class="span8">
