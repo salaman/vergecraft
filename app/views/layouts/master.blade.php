@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css?2.3.2">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css?2.3.2">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css?0.9.9">
-    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css?1">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -35,7 +35,7 @@ body {
     text-align: center;
     border-bottom: 1px solid #ddd;
     padding: 100px 0;
-    background: url(../img/jumbotron.jpg) no-repeat bottom center;
+    background: url(../img/jumbotron.jpg?1) no-repeat bottom center;
 }
 
 .jumbotron h1 {
