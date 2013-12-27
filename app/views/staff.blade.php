@@ -17,7 +17,7 @@
             <h2>Owners</h2>
             <ul class="thumbnails players">
                 <li class="thumbnail player">
-                    <img src="img/heads/LaughingStoic.png" alt="LaughingStoic" />
+                    <img src="img/heads/laughingstoic.png" alt="LaughingStoic" />
                     <div class="caption text-center">LaughingStoic</div>
                 </li>
                 <li class="thumbnail player">
@@ -33,7 +33,7 @@
                     <div class="caption text-center">blind_guy23</div>
                 </li>
                 <li class="thumbnail player">
-                    <img src="img/heads/dotCARBON.png" alt="dotCARBON" />
+                    <img src="img/heads/dotcarbon.png" alt="dotCARBON" />
                     <div class="caption text-center">dotCARBON</div>
                 </li>
                 <li class="thumbnail player">
@@ -49,11 +49,11 @@
                     <div class="caption text-center">meganelizzzabeth</div>
                 </li>
                 <li class="thumbnail player">
-                    <img src="img/heads/MooseStuff.png" alt="MooseStuff" />
+                    <img src="img/heads/moosestuff.png" alt="MooseStuff" />
                     <div class="caption text-center">MooseStuff</div>
                 </li>
                 <li class="thumbnail player">
-                    <img src="img/heads/Moza805.png" alt="Moza805" />
+                    <img src="img/heads/moza805.png" alt="Moza805" />
                     <div class="caption text-center">Moza805</div>
                 </li>
                 <li class="thumbnail player">
@@ -61,15 +61,15 @@
                     <div class="caption text-center">ndwatkins</div>
                 </li>
                 <li class="thumbnail player">
-                    <img src="img/heads/Salaman.png" alt="Salaman" />
+                    <img src="img/heads/salaman.png" alt="Salaman" />
                     <div class="caption text-center">Salaman</div>
                 </li>
                 <li class="thumbnail player">
-                    <img src="img/heads/Tahkeh.png" alt="Tahkeh" />
+                    <img src="img/heads/tahkeh.png" alt="Tahkeh" />
                     <div class="caption text-center">Tahkeh</div>
                 </li>
                 <li class="thumbnail player">
-                    <img src="img/heads/Tahl.png" alt="Tahl" />
+                    <img src="img/heads/tahl.png" alt="Tahl" />
                     <div class="caption text-center">Tahl</div>
                 </li>
             </ul>
