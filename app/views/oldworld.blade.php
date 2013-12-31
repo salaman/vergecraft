@@ -15,40 +15,55 @@
 <div class="content">
     <div class="container">
         <section>
-            <div class="alert">
-                <strong>The following page contains links to the oldest world (Vergecraft 1) and is no longer relevant.</strong> A world download of the newest map is coming very soon!
-            </div>
-            <h2>World file</h2>
+            <h2>Download instructions</h2>
             <div class="row-fluid">
-                <div class="span8">
-                <p>Download an archive of the old Vergecraft world with Oceana, The Nether and End.</p>
-                <p>Using a download manager/tool with support for resuming partial downloads is recommended.</p>
-                <p>Use <a href="http://www.7-zip.org/">7-zip</a> or other compatible file extraction utility to unpack. md5/sha1 hashes can be verified with a utility such as <a href="http://www.implbits.com/hashtab.aspx">HashTab</a>.</p>
+                <div class="span12">
+                <p>Using a download manager/tool with support for resuming partial downloads is recommended, because is it possible that the download gets interrupted. Such tools exist for all platforms or browsers and can be found online.
+                If you are familiar with the command line, the cross-platform <code>wget</code> utility can be used with the <code>-c</code> flag.</p>
+                <p>Use <a href="http://www.7-zip.org/">7-zip</a> or another compatible file extraction utility that supports the 7z file format to unpack after downloading. If you suspect your download is corrupt, you may check the MD5/SHA1 file hashes using a file hash checker application.</p>
                 </div>
-                <div class="span4">
+            </div>
+        </section>
+        <section>
+            <div class="row-fluid">
+                <div class="span6">
+                    <h2>Vergecraft 1 map</h2>
                     <p>
                         <a class="btn btn-primary" href="http://www.inimicus.com/downloads/vergecraft/world4.7z">
                             <strong><i class="icon-download icon-white"></i> Click to download</strong>
                         </a>
                     </p>
-                    <p>Filesize: ~4.51 GB (4,845,617,648 bytes)<br />
-                    md5: <code>7d2180d40e8963b61053aa83df24c866</code><br />
+                    <p>Filesize: ~4.51 GB (4,845,617,648 bytes)</p>
+                    <p>md5: <code>7d2180d40e8963b61053aa83df24c866</code><br />
                     sha1: <code>3b6ee55155afe65190c29eef6a5227157cd86d9b</code></p>
                 </div>
-            </div>
-        </section>
+                <div class="span6">
+                    <h2>Vergecraft 2 map</h2>
+                    <p>
+                        <a class="btn btn-primary" href="http://www.inimicus.com/downloads/vergecraft/vcv2/vcv2.7z.001">
+                            <strong><i class="icon-download icon-white"></i> Part 1</strong>
+                        </a>
 
-        <section>
-            <div class="row-fluid">
-                <div class="span8">
-                    <h2>Visits</h2>
-                    <p>The old world is accessible 24/7 on Vergecraft for visits if you do not wish to download it.</p>
-                    <p>Simply take the <strong>North path</strong> from spawn and turn left to access the Portal Temple. From there, you will be able to walk into any location sign to get teleported to the old world.</p>
-                    <p>Please note that due to technical reasons, nether portals have been disabled in the old world.</p>
+                        <a class="btn btn-primary" href="http://www.inimicus.com/downloads/vergecraft/vcv2/vcv2.7z.002">
+                            <strong><i class="icon-download icon-white"></i> Part 2</strong>
+                        </a>
+
+                        <a class="btn btn-primary" href="http://www.inimicus.com/downloads/vergecraft/vcv2/vcv2.7z.003">
+                            <strong><i class="icon-download icon-white"></i> Part 3</strong>
+                        </a>
+
+                        <a class="btn btn-primary" href="http://www.inimicus.com/downloads/vergecraft/vcv2/vcv2.7z.004">
+                            <strong><i class="icon-download icon-white"></i> Part 4</strong>
+                        </a>
+                    </p>
+                    <p>Filesize: ~5.86 GB total (6,294,133,217 bytes)</p>
+                    <p>The download is split into 4 1.5 GB files to facilitate downloading in case of interrupted downloads. Download <strong>all parts</strong> into the same folder, and <strong>open the first one</strong> with 7-zip.</p>
+                    <p>md5 part 1: <code>7d70f098135612a48536eefca0e949b8</code><br />
+                    md5 part 2: <code>f46facc7e171cab34a95c75d49601075</code><br />
+                    md5 part 3: <code>ae19d423f79bef0f6a100eb2f559cc17</code><br />
+                    md5 part 4: <code>de0d79095bcc78c70eeea274751ffd78</code></p>
                 </div>
-                <div class="span4">
-                    <img class="img-polaroid" src="img/portalroom.png" alt="Map to Portal Room" />
-                </div>
+
             </div>
         </section>
     </div>
